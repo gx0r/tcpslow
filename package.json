@@ -1,0 +1,37 @@
+{
+  "name": "tcpslow",
+  "version": "3.0.1",
+  "description": "Create a TCP proxy that delays packets.",
+  "main": "tcpslow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llambda/tcpslow.git"
+  },
+  "files": [
+    "tcpslow.js"
+  ],
+  "keywords": [
+    "tcp",
+    "stream",
+    "slow",
+    "throttle",
+    "proxy",
+    "unix domain socket"
+  ],
+  "author": "llambda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llambda/tcpslow/issues"
+  },
+  "homepage": "https://github.com/llambda/tcpslow",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^4.0.0"
+  },
+  "bin": {
+    "tcpslow": "./tcpslow.js"
+  }
+}
